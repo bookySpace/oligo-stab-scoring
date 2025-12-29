@@ -1,0 +1,3 @@
+Sequence,Length,GC_Content,Hairpin_dG,Self_Dimer_Risk,Score,Classification
+AUGCUAGCUAGCUA,14,50,-3.2,0.1,1,Stable
+GGGGCGCGCGCGCG,14,86,-14.5,0.7,5,High Risk
