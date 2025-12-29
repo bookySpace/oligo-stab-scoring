@@ -1,1 +1,20 @@
-mkdir -p data/benchmarks
+# RNA Stability Benchmark – GSE34204
+
+This benchmark uses public RNA half-life measurements from GEO accession
+GSE34204 (human lymphoblastoid cells).
+
+## Dataset
+- Source: Gene Expression Omnibus (GEO)
+- Accession: GSE34204
+- Measurement: mRNA half-life (hours)
+
+## Benchmark Strategy
+Transcripts are labeled as:
+- Stable: top 25% longest half-lives
+- Unstable: bottom 25% shortest half-lives
+
+These labels are used to validate in silico oligo stability scoring rules.
+
+## Disclaimer
+Half-life is context-dependent and cell-type specific.
+This benchmark is intended for relative comparison, not absolute prediction.
